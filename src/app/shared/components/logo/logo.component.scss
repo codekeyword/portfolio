@@ -1,0 +1,22 @@
+
+ .l-red{
+     color: #c1121f
+ }
+ .l-grey{
+     color: #00304a 
+ }
+ .l-yellow{
+     color:#fdf0d5;
+ }
+
+ @media only screen and (max-width: 768px) {
+
+  }
+
+  @media only screen and (min-width: 768px) {
+    .logo-text{
+        font-weight: 1000px;
+        font-size: 5vw;
+     }
+   
+  }

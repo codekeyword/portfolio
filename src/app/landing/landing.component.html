@@ -1,0 +1,81 @@
+<div id="your-element-selector">
+    <div class="landing-container">
+        <div class="hdr">
+            <header class="hdr-title">
+                <div class="lg-item"> 
+                    <!-- <fa-icon style="color:#00304a" [icon]="fb"></fa-icon> -->
+                    codekeyword.io
+                </div>
+            </header>
+        </div>
+        <div class="nv">
+            <nav class="nv-items">
+                <div class="nv-item" *ngFor="let socialMedia of socialMediaList">
+                    <a [href]="socialMedia.link" target="_blank" rel="noreferrer noopener">
+                        <fa-icon  style="color:#00304a" size="1x" [icon]="socialMedia.icon"></fa-icon>
+                    </a>
+                 
+                </div>
+            </nav>
+        </div>
+        <div class="lg">
+            <section>
+                <app-logo></app-logo>
+            </section>
+        </div>
+        <div class="ar">
+            <article id="content">
+                <div id="about" class="ab-items">
+                    <div id="experience" class="ab-item">
+                        <div class="crd">
+                            <div class="crd-img crd-item">
+                                <fa-icon style="color:#00304a" size="2x" [icon]="bcicon"></fa-icon>
+                            </div>
+                            <div class="crd-title crd-item">
+                                <span class="crd-txt">
+                                    8+ Years of full stack development Experience
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="transition" class="ab-item">
+                        <div class="crd">
+                            <div class="crd-img crd-item">
+                                <fa-icon style="color:#00304a" size="2x" [icon]="lcicon"></fa-icon>
+                            </div>
+                            <div class="crd-title crd-item">
+                                <span class="crd-txt">
+                                    Mechanical graduate to senior IT tech Lead
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="orgchange" class="ab-item">
+                        <div class="crd">
+                            <div class="crd-img crd-item">
+                                <fa-icon style="color:#00304a" size="2x" [icon]="gicon"></fa-icon>
+                            </div>
+                            <div class="crd-title crd-item">
+                                <span class="crd-txt">
+                                    Worked in 6 gloabally recoginzied organization with good track record
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+        <div class="fo">
+            <footer>If you have any questions on the authenticity of content please write to codekeyword&#64;gmail.com</footer>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>

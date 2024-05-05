@@ -1,0 +1,169 @@
+.app-logo{
+
+}
+.fx-v{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    top: 42vh;
+    right: 48vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-end;
+}
+.landing-container{
+     display: grid;
+  
+                         
+}
+
+.hdr {
+    grid-area: AAAA;
+    min-height: 11vh;
+    align-content: space-around;
+    justify-self: center;
+
+}
+
+
+.lg{
+    grid-area: CCCC;
+    justify-self: center;
+    align-content: space-around;
+    min-height: 24vh;
+}
+.ar{
+    grid-area: DDDD;
+    align-content: space-around;
+    justify-self: center;
+    min-height: 54vh;
+   
+   
+}
+
+.fo{
+    grid-area: EEEE;
+    align-content: end;
+    justify-self: center;
+    height: 10.75vh;
+    font-size: 1.75vh;
+}
+
+.nv-items{
+    display: flex;
+    justify-content: center;
+}
+
+.ab-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ab-item{
+    
+    margin: auto;
+}
+.crd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap ;
+    
+}
+.crd-item {
+    align-content: center;
+    text-align: center;
+}
+.crd-img{
+    min-height: 10vh;
+    
+}
+#your-element-selector{
+
+}
+.nv{
+    grid-area: BBBB;   
+    min-width: 20vw;
+    align-content: space-around; 
+}
+@media only screen and (max-width: 768px) {
+    .landing-container{
+        // grid-template-areas: "AAAA . BBBB"
+        // "CCCC CCCC CCCC"
+        // "DDDD DDDD DDDD"
+        // "EEEE EEEE EEEE";
+        grid-template-areas: "AAAA"
+                              "BBBB"
+                               "CCCC"
+                               "DDDD"
+                               "EEEE"
+                               ;       
+                               -webkit-box-shadow:inset 0 0 24px 9px #00304a;
+box-shadow:inset 0 0 24px 9px #00304a;                     
+    }
+    
+    .ab-item{
+        max-width: 450px;
+     
+    }
+    .crd{
+        min-width: 150px;
+    }
+   
+    .hdr-title{
+        font-size: 24px;
+    }
+    .lg-item{
+
+        font-size: 5vw;
+        font-weight: 600;
+    }
+    .nv-item{
+        font-size: smaller;
+        margin: 0 1.5vh 0 1.5vh;
+    }
+    #about{
+    
+        width: 90vw;   
+        font-size: medium;
+        font-weight: 600;
+    }
+   
+  }
+//DES
+  @media only screen and (min-width: 768px) {
+    .landing-container{
+
+        grid-template-areas: "AAAA . BBBB"
+                           "CCCC CCCC CCCC"
+                           "DDDD DDDD DDDD"
+                           "EEEE EEEE EEEE";
+                           -webkit-box-shadow:inset 0 0 24px 9px #00304a;
+box-shadow:inset 0 0 24px 9px #00304a;
+                           
+    }
+    .ab-item{
+        max-width: 15vw;
+     
+    }
+    .crd{
+        min-width: 450px;
+    }
+    .lg-item{
+
+        margin: 0 2vh 0 1vh;
+        font-size: 3.75vh;
+    }
+    .nv-item{
+        margin: 0 2vh 0 2vh;
+    }
+    .nv {     
+        min-height: 11vh;
+       
+    }
+    #about{
+    
+        width: 80vw;   
+        font-size: 3vh;
+    }
+  }

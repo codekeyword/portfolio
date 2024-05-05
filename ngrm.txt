@@ -1,0 +1,5 @@
+ng generate m app --flat true
+
+ng g module Landing --module ./app/app.module --routing true --route landing
+
+ng generate c logo --module ./app/shared.module --export true
