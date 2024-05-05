@@ -78,9 +78,7 @@
     min-height: 10vh;
     
 }
-#your-element-selector{
 
-}
 .nv{
     grid-area: BBBB;   
     min-width: 20vw;
@@ -108,6 +106,8 @@ box-shadow:inset 0 0 24px 9px #00304a;
     }
     .crd{
         min-width: 150px;
+        padding: 2vh;
+        
     }
    
     .hdr-title{
@@ -124,11 +124,25 @@ box-shadow:inset 0 0 24px 9px #00304a;
     }
     #about{
     
-        width: 90vw;   
+       
         font-size: medium;
         font-weight: 600;
     }
-   
+    img{
+        width: 18vh;
+        min-width: 24px;
+    }
+    .ar{
+        width: 80vw;
+    }
+    .crd-txt{
+        font-weight: 900;
+    }
+    .fo{
+        width: 80vw;
+        font-size: 8px;
+        font-weight: 900;
+    }
   }
 //DES
   @media only screen and (min-width: 768px) {
@@ -147,7 +161,7 @@ box-shadow:inset 0 0 24px 9px #00304a;
      
     }
     .crd{
-        min-width: 450px;
+        min-width: 250px;
     }
     .lg-item{
 
@@ -165,5 +179,11 @@ box-shadow:inset 0 0 24px 9px #00304a;
     
         width: 80vw;   
         font-size: 3vh;
+        font-size: 2vh;
+        font-weight: 600;
+    }
+    img{
+        width: 24vh;
+        min-width: 24px;
     }
   }
