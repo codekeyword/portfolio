@@ -94,6 +94,6 @@ export class LandingComponent implements OnInit{
     })  
   }
   reloadCurrentRoute() {   
-   window.location.reload();
+   //window.location.reload();
   }
 }

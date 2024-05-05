@@ -9,28 +9,53 @@
      color:#fdf0d5;
  }
  .caption{
-    font-style: italic;
-    font-size: medium;
+    font-style: italic;   
     text-align: right;
-    width: 40vw;
-    font-weight: 900;
+    
+    
  }
  .hashtag{
     font-family: sans-serif;
-    font-size: 1.75vw;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1vh;
+        text-align: center;
+   
  }
 
  @media only screen and (max-width: 768px) {
-
+    .caption{
+       
+        font-size: medium;       
+        width: 72vw;
+        font-weight: 900;
+     }
+     .hashtag{
+        
+        font-size: 4vw;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 3vh;
+     }
+     .sp{
+        font-size: 32px;
+     }
   }
 
+
+  ///des
   @media only screen and (min-width: 768px) {
     .logo-text{
         font-weight: 1000px;
         font-size: 5vw;
      }
-   
+     .caption{       
+        font-size: medium;     
+        width: 40vw;
+        font-weight: 900;
+     }
+     .hashtag{
+       
+        font-size: 1.75vw;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 1vh;
+     }
   }
